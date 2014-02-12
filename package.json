@@ -1,6 +1,7 @@
 {
+  "family": "alimobstyle",
   "name": "layout",
-  "description": "",
+  "description": "alibaba mobile css theme - 布局",
   "version": "1.0.0",
   "homepage": "https://github.com/alimobstyle/layout",
   "repository": {
@@ -10,9 +11,13 @@
   "bugs": {
     "url": "https://github.com/alimobstyle/layout/issues"
   },
-  "family": "alimobstyle",
+  "keywords": ["widget"],
   "spm": {
-    "alias": {},
+    "alias": {
+        "base": "alimobstyle/base/1.0.0/base.css",
+        "button": "alimobstyle/button/1.0.1/button.css",
+        "form": "alimobstyle/form/1.0.1/form.css"
+    },
     "output": [
       "layout.css"
     ]
