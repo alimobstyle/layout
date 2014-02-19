@@ -1,20 +1,93 @@
 /*! define alimobstyle/layout/1.0.0/layout-debug.css */
 /* alimobstyle.layout 样式模块 */
 
+/*
+ * flexbox布局
+ */
+/* 水平flexbox布局 */
 .ali-flexbox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: box;
 }
-.ali-flexbox .ali-flexbox-item {
+.ali-flexbox-item {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     box-flex: 1;
     margin: 4px 0 4px 8px;
 }
+.ali-flex2{
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    box-flex: 2;
+}
+.ali-flex3{
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    box-flex: 3;
+}
+.ali-flex4{
+    -webkit-box-flex: 4;
+    -ms-flex: 4;
+    box-flex: 4;
+}
+.ali-flex5{
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    box-flex: 5;
+}
+.ali-flex6{
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
+    box-flex: 6;
+}
+.ali-flex7{
+    -webkit-box-flex: 7;
+    -ms-flex: 7;
+    box-flex: 7;
+}
+.ali-flex8{
+    -webkit-box-flex: 8;
+    -ms-flex: 8;
+    box-flex: 8;
+}
+.ali-flex9{
+    -webkit-box-flex: 9;
+    -ms-flex: 9;
+    box-flex: 9;
+}
+.ali-flex10{
+    -webkit-box-flex: 10;
+    -ms-flex: 10;
+    box-flex: 10;
+}
+.ali-flex11{
+    -webkit-box-flex: 11;
+    -ms-flex: 11;
+    box-flex: 11;
+}
+.ali-flex12{
+    -webkit-box-flex: 12;
+    -ms-flex: 12;
+    box-flex: 12;
+}
 .ali-flexbox-item:first-child {
     margin-left: 0;
 }
+
+/* 垂直flexbox布局 */
+/* 注意：需要指定容器高度 */
+.ali-flexbox-vertical{
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+}
+
+/* grid布局 */
 .ali-grid {
     overflow: hidden;
 }
@@ -28,12 +101,12 @@
 .ali-grid-item:first-child {
     padding-left: 0;
 }
+
 /* width */
 .one-quarter {
     width: 25%;
 }
-.one-half,
-.two-quarters {
+.one-half, .two-quarters {
     width: 50%;
 }
 .third-quarters {

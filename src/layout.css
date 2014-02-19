@@ -1,3 +1,4 @@
+/*! define alimobstyle/layout/1.0.0/layout-debug.css */
 /* alimobstyle.layout 样式模块 */
 
 /*
@@ -86,8 +87,6 @@
     box-orient: vertical;
 }
 
-
-
 /* grid布局 */
 .ali-grid {
     overflow: hidden;
@@ -102,8 +101,6 @@
 .ali-grid-item:first-child {
     padding-left: 0;
 }
-
-
 
 /* width */
 .one-quarter {
